@@ -8,7 +8,7 @@
  * Contributors:
  *    Marc-Andre Laperle - EclipseRunMojo inspired by TestMojo
  *******************************************************************************/
-package org.eclipselabs.tycho.eclipserun;
+package com.google.code.tycho.eclipserun;
 
 import java.io.File;
 import java.net.MalformedURLException;
