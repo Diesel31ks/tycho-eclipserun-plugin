@@ -28,6 +28,26 @@
 	<description>A plugin that allows to run an Eclipse application from Maven/Tycho.</description>
 	<url>http://code.google.com/a/eclipselabs.org/p/tycho-eclipserun-plugin/</url>
 
+	<licenses>
+		<license>
+			<name>Eclipse Public License v1.0</name>
+			<url>http://www.eclipse.org/legal/epl-v10.html</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<id>marc-andre.laperle</id>
+			<name>Marc-Andre Laperle</name>
+			<email>malaperle@omnialabs.net</email>
+			<roles>
+				<role>developer</role>
+			</roles>
+			<timezone>-5</timezone>
+		</developer>
+	</developers>
+
 	<scm>
 		<url>http://code.google.com/a/eclipselabs.org/p/tycho-eclipserun-plugin/source/checkout</url>
 		<connection>scm:git:https://code.google.com/a/eclipselabs.org/p/tycho-eclipserun-plugin/</connection>
@@ -69,7 +89,7 @@
 				</executions>
 			</plugin>
 
-			<plugin>
+			<!-- Use profiles? <plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-gpg-plugin</artifactId>
 				<executions>
@@ -81,7 +101,7 @@
 						</goals>
 					</execution>
 				</executions>
-			</plugin>
+			</plugin>-->
 		</plugins>
 	</build>
 </project>
