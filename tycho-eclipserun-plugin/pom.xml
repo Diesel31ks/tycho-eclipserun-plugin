@@ -20,7 +20,7 @@
 	
 	<groupId>com.google.code.tycho-eclipserun-plugin</groupId>
 	<artifactId>tycho-eclipserun-plugin</artifactId>
-	<version>0.13.0</version>
+	<version>0.13.1-SNAPSHOT</version>
 	<packaging>maven-plugin</packaging>
 	<name>Eclipse Run Plugin for Tycho</name>
 	<description>A plugin that allows to run an Eclipse application from Maven/Tycho.</description>
